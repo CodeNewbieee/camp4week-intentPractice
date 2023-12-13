@@ -18,7 +18,7 @@ class ThirdActivity : AppCompatActivity() {
         val editText = findViewById<EditText>(R.id.editText)
         editText.setText(strData)
 
-        val btn_close = findViewById<Button>(R.id.buttonThirdActivity)
+        val btn_close = findViewById<Button>(R.id.btn_close)
         btn_close.setOnClickListener {
             finish()
         }

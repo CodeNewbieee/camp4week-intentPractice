@@ -23,11 +23,11 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="128dp"
         android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/buttonThirdActivity"
+        app:layout_constraintBottom_toTopOf="@+id/btn_close"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
-        android:id="@+id/buttonThirdActivity"
+        android:id="@+id/btn_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="112dp"

@@ -29,7 +29,7 @@ class FirstActivity : AppCompatActivity() {
             val edit_text = findViewById<EditText>(R.id.edit_data)
             val strData = edit_text.text.toString()
             val intent = Intent(this, ThirdActivity::class.java)
-            intent.putExtra("dataFromFirstActivity", strData)
+            intent.putExtra("dataFromFirstActivity", strData) // 키값을 입력 및 전달한 변수 strData
             startActivity(intent)
         }
     }
